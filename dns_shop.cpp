@@ -66,7 +66,7 @@ void dns_shop::READ(){
     QString str;
     QString Data_str;
     stuff t;
-    QFile file("C:/Users/Kira/Documents/DNSS_SHOP/products.txt");
+    QFile file("C:/Users/Documents/DNSS_SHOP/products.txt");
 
     if(file.open(QIODevice::ReadOnly | QIODevice::Text))
     {
@@ -108,7 +108,7 @@ QString dns_shop::getName(){
 
 void dns_shop::WRITE(){
     int SUM = 0;
-    QFile file("C:/Users/Kira/Documents/DNSS_SHOP/check.txt");
+    QFile file("C:/Users/Documents/DNSS_SHOP/check.txt");
 
     if(file.open(QIODevice::WriteOnly | QIODevice::Text))
     {
